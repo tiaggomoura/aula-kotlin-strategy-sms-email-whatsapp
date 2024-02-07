@@ -30,6 +30,13 @@ dependencies {
     runtimeOnly("org.postgresql:postgresql")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
+    //  Zebra Crossing QR Image Processing Library
+    implementation("com.google.zxing:core:3.5.1")
+    implementation("com.google.zxing:javase:3.5.1")
+
+    //  TOTP Library
+    implementation("dev.turingcomplete:kotlin-onetimepassword:2.4.0")
+
     //Logger
     implementation("io.github.microutils:kotlin-logging:1.12.0")
     implementation(kotlin("stdlib-jdk8"))
